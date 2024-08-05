@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+
+    background:#000d1fd2;
+    padding: 10px 22rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.header-logo {
+    font-size: 24px;
+    padding-left: 50px;
+    font-weight: bolder;
+}
+
+.header-link > ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-right: 50px;
+    font-size: large;
+}
+.one{
+
+    background: #000d1fd2;
+    display: flex;
+    padding: 10rem;
+    justify-content: center;
+    gap: 4.5rem;
+
+}
+
+
+.header-text1 {
+    font-size: 50px;
+    font-weight: 1000;
+    color: #fff;
+    max-width: 500px;
+}
+.header-text2{
+    font-size: 18px;
+    color: #fff;
+    max-width: 770px;
+
+}
+button{
+    background-color: blue;
+    border-radius: 10px;
+    padding:10px 50px;
+    margin:100px 1px ;
+    color: #fff;
+    font-size: large;
+    border-color: blue;
+    font-weight: bold;
+    
+}
+.one >img {
+    /* max-width: 550px;
+   margin-left: 700px; */
+   aspect-ratio: 20/9;
+   max-width: 750px;
+  }
+
+ .two{
+    background-color: azure;
+ }
+ p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    padding-top: 20px;
+ }
+ .images{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    
+ }
+ .image > img {
+    aspect-ratio: 1/1;
+    max-width: 250px;
+ }
+ .three{
+    background-color:grey;
+   
+ }
+ .three >p{
+    color: black;
+    max-width: 1300px;
+    padding: 40px 60px;
+    margin-left: 550px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+ .four{
+    background-color: blue;
+    
+    
+    margin: 150px 200px;
+   
+ }
+ .four .fin{
+    display: flex;
+    
+ }
+ .four .fin >button{
+    background-color: blue;
+    border-radius:10px;
+    padding:10px 50px;
+    margin-left: 500px;
+    margin-top: 50px;
+    color: #fff;
+    font-size: large;
+    border-color: rgb(242, 242, 245);
+    font-weight: bold;
+ }
+ .last >p{
+    padding-left: 250px;
+    padding-right: 250px;
+    color: #fff;
+    text-align: start;
+    padding-top: 25px;
+ }
+ footer{
+    background-color: rgb(0, 0, 85);
+    
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+   
+ }
+ footer >p{
+    color: #fff;
+    padding: 20px;
+ }
